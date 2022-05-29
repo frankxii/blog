@@ -73,7 +73,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
@@ -115,7 +115,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `<a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2021005054号</a><br/>Copyright © 2021 - ${new Date().getFullYear()} Frankxii Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
