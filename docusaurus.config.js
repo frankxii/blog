@@ -51,12 +51,16 @@ const config = {
         },
         items: [
           {
+            to: '/blog',
+            label: '博客',
+            position: 'left'
+          },
+          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: '笔记',
           },
-          {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/frankxii',
             label: 'GitHub',
@@ -67,7 +71,11 @@ const config = {
       footer: {
         style: 'light',
         links: [],
-        copyright: `<a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2021005054号</a><br/>Copyright © 2021 - ${new Date().getFullYear()} Frankxii Rights Reserved.`,
+        copyright: `
+        <a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2021005054号</a>
+        <br/>
+        Copyright © 2021 - ${new Date().getFullYear()} Frankxii Rights Reserved.
+        `,
       },
       prism: {
         theme: lightCodeTheme,
