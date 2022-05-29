@@ -57,7 +57,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'note',
             position: 'left',
             label: '笔记',
           },
