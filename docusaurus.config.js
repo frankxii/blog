@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '仙道的博客',
-  tagline: '我们坚持一件事情，并不是因为这样做了会有效果，而是坚信，这样做是对的。',
+  tagline: '人生要自己选择，由此产生的责任也全部自己承担，这才叫活着。',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
