@@ -4,4 +4,4 @@ yarn build
 # remove remote files
 # cd ~/blog
 # rm -rf ./*
-scp -r ./build/* tencent:~/blog
+# scp -r ./build/* tencent:~/blog
