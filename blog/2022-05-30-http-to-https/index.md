@@ -29,9 +29,11 @@ SSL证书可以直接在云服务器厂商的管理后台上申请，我使用�
 ## Nginx配置
 
 审批通过之后，可以在我的证书里面找到对应证书，点击下载
+
 ![下载](./img/download.png)
 
 下载后的文件夹解压后如下图所示
+
 ![压缩包](./img/archive.png)
 
 可通过scp命令把crt文件和key文件上传到服务器
@@ -58,6 +60,7 @@ cd /etc/nginx
 sudo vi nginx.conf
 ```
 
+修改配置
 ```bash
 server {
    listen 443 ssl;
