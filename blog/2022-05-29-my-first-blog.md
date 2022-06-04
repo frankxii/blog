@@ -5,4 +5,4 @@ authors: frankxii
 tags: [心情]
 ---
 
-差不多花了半天时间，终于完善了使用Docusaurusda搭建的新博客网站，心情很不错。
+差不多花了半天时间，终于完善了使用Docusaurus搭建的新博客网站，心情很不错。
